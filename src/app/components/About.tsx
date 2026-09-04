@@ -3,7 +3,6 @@ import { useInView } from "../hooks/useInView";
 import { Bot, Shield, Code2, BookOpen } from "lucide-react";
 
 const stats = [
-  { label: "CGPA @ BRACU", value: "3.6" },
   { label: "Students Taught", value: "20+" },
   { label: "Certifications", value: "5" },
   { label: "Clubs & Orgs", value: "4" },
@@ -13,7 +12,7 @@ const highlights = [
   { icon: <Bot size={20} />, title: "Robotics", desc: "Director of Research Development at BRACU Robotics Club. Working with Arduino, ROS, SLAM, and autonomous systems." },
   { icon: <Shield size={20} />, title: "Cyber Security", desc: "Certified in AI Cyber Security & Ethical Hacking. Passionate about securing systems and understanding vulnerabilities." },
   { icon: <Code2 size={20} />, title: "AI & Automation", desc: "AI Engineering Level 1 certified. Exploring agentic workflows, OpenCV, and intelligent automation pipelines." },
-  { icon: <BookOpen size={20} />, title: "Teaching", desc: "Private tutor since 2020 with 20+ students. Teaching mathematics, ICT, and coding to classes 1–12 and BRACU juniors." },
+  { icon: <BookOpen size={20} />, title: "Teaching", desc: "Private tutor since 2020 with 25+ students. Teaching mathematics, ICT, and coding to classes 1–12 and BRACU juniors." },
 ];
 
 const experience = [
@@ -36,7 +35,7 @@ const experience = [
     color: "#a78bfa",
   },
   {
-    role: "General Member of Finance",
+    role: "Member of Finance",
     org: "BRAC University Computer Club",
     period: "May 2024 – Present",
     color: "#f59e0b",
